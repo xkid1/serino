@@ -72,7 +72,7 @@ app.use(express.static(path.join(__dirname, "public")));
 /**
  * CSRF
  */
-app.use(csrf);
+// app.use(csrf);
 
 /**router */
 app.use("/api", v1);
